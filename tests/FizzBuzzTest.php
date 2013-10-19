@@ -12,7 +12,7 @@
 
 require_once dirname(__DIR__) . "/vendor/rmjr/FizzBuzz.php";
 
-class FixxBuzTest extends PHPUnit_Framework_TestCase
+class FizzBuzTest extends PHPUnit_Framework_TestCase
 {
 
 	//this is a data provider.
