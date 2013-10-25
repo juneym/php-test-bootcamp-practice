@@ -29,7 +29,7 @@ class FizzBuzTest extends PHPUnit_Framework_TestCase
 	 * This test method uses the sample fizzBuzz data provider
 	 * 
 	 * @test
-	 * @dataprovider fizzBuzzProvider
+	 * @dataProvider fizzBuzzProvider
 	 */
 	public function fizzBuzzScenarios($expected, $testvalue) {
 		$testFizzBuzz = new FizzBuzz();
