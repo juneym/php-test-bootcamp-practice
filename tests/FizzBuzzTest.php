@@ -33,7 +33,7 @@ class FizzBuzTest extends PHPUnit_Framework_TestCase
 	 */
 	public function fizzBuzzScenarios($expected, $testvalue) {
 		$testFizzBuzz = new FizzBuzz();
-		$response = $testFizzBuzz->evaluate($testValue);
+		$response = $testFizzBuzz->evaluate($testvalue);
 		$this->assertEquals($expected, 
 						 	$response, 
 						 	'Did not get ' . $expected . ' as expected: ' . $response);
